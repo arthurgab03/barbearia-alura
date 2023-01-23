@@ -25,7 +25,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 Este projeto foi desenvolvido através das aulas de HTML e CSS do programa Oracle Next Education em parceria com a Alura, a página simula um site de barbearia. O desenvolvimento da página foi importante para o entendimento e aprendizado das principais funções do HTML e CSS, desde tags semânticas até posicionamento e estilização.
 
 
-- [Visite o projeto online:](https://arthur-gabriel-silva2003.github.io/barbearia-alura/home.html)
+- [Clique aqui para visualizar o projeto online](https://arthur-gabriel-silva2003.github.io/barbearia-alura/home.html)
 
 
 
