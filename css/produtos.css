@@ -1,0 +1,138 @@
+ body {
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ header {
+     background: #bbbbbb;
+     padding: 20px 0;
+ }
+
+
+ .caixa {
+     position: relative;
+     width: 940px;
+     margin: 0 auto;
+ }
+
+ nav {
+     position: absolute;
+     top: 110px;
+     right: 0;
+ }
+
+
+ nav li {
+     display: inline;
+     margin: 0 0 0 15px;
+
+ }
+
+ nav a {
+     text-transform: uppercase;
+     color: #000000;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 22px;
+     margin-left: 15px;
+ }
+
+
+ nav a:hover {
+     color: #c78c19;
+     text-decoration: underline;
+ }
+
+ nav a:active {
+     color: #088C19;
+ }
+
+
+
+ .produtos {
+     width: 940px;
+     margin: 0 auto;
+     padding: 50px 0;
+ }
+
+
+ .produtos li {
+     display: inline-block;
+     vertical-align: top;
+     text-align: center;
+     width: 30%;
+     margin: 0 1.5%;
+     padding: 30px 20px;
+     box-sizing: border-box;
+     border: 2px solid black;
+     border-radius: 10px;
+     transition: 0.5s all;
+
+ }
+
+ .produtos li:hover {
+     border-color: #c78c19;
+     transform: scale(1.05);
+ }
+
+ .produtos li:active {
+     border-color: #088C19;
+ }
+
+ .produtos h2 {
+     font-size: 30px;
+     font-weight: bold;
+ }
+
+ .price {
+     font-size: 22px;
+     font-weight: bold;
+     margin-top: 10px;
+ }
+
+ .description {
+     font-size: 18px
+ }
+
+ footer {
+     text-align: center;
+     background: url("./imagens/bg.jpg");
+     padding: 40px 0;
+ }
+
+ footer p {
+     color: #FFFFFF;
+     font-size: 13px;
+     margin-top: 20px;
+ }
+
+
+ @media screen and (max-width: 480px) {
+
+     .caixa,
+     .produtos {
+         width: auto;
+     }
+
+     h1 {
+         text-align: center;
+     }
+
+     nav {
+         position: static
+     }
+
+
+
+     .produtos li {
+         display: block;
+         width: 100%;
+         margin: 20px 0;
+     }
+
+     .produtos h2 {
+         font-size: 22px;
+
+     }
+
+
+ }

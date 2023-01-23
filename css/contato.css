@@ -1,0 +1,148 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
+header {
+   background: #BBBBBB;
+   padding: 20px 0;
+}
+
+.caixa {
+   width: 940px;
+   position: relative;
+   margin: 0 auto;
+}
+
+nav {
+   position: absolute;
+   top: 110px;
+   right: 0;
+}
+
+nav li {
+   display: inline;
+   margin: 0 0 0 15px;
+}
+
+nav a {
+   text-decoration: none;
+   color: #000000;
+   text-transform: uppercase;
+   font-size: 22px;
+   font-weight: bold;
+   margin-left: 15px;
+
+}
+
+nav a:hover {
+   color: #c78c19;
+   text-decoration: underline;
+}
+
+nav a:active {
+   color: #088C19;
+}
+
+main {
+   width: 940px;
+   margin: 0 auto;
+}
+
+form {
+   margin: 40px 0;
+}
+
+form label,
+fieldset legend {
+   display: block;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+
+.input-padrao {
+   display: block;
+   margin-bottom: 20px;
+   padding: 10px 25px;
+   width: 50%;
+}
+
+#radio-email, #radio-phone, #radio-whats:hover {
+   cursor: pointer;
+}
+
+.checkbox {
+   margin: 20px 0;
+}
+
+.checkbox:hover {
+   cursor: pointer;
+}
+
+.enviar {
+   width: 40%;
+   padding: 15px 0;
+   background: orange;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 1s all;
+
+}
+
+.enviar:hover {
+   background: darkorange;
+   transform: scale(1.2)
+}
+
+table {
+   margin: 20px 0 40px;
+}
+
+thead {
+   background: #555555;
+   color: white;
+   font-weight: bold;
+}
+
+th,
+td {
+   border: 1px solid black;
+   padding: 8px 15px;
+}
+
+
+footer {
+   background-image: url(./imagens/bg.jpg);
+   padding: 40px 0;
+   text-align: center;
+}
+
+.copyright {
+   color: white;
+   font-size: 13px;
+   margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+
+   .caixa,
+   main {
+      width: auto;
+   }
+
+   nav {
+      position: static;
+   }
+
+   h1 {
+      text-align: center;
+   }
+
+   .input-padrao {
+      width: 50%;
+      padding: 15px 10px;
+   }
+}
